@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notes App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<label class="dark-mode-toggle">
+  <input type="checkbox" id="darkModeToggle">
+  Dark Mode
+</label>
+
+  <div class="container">
+    <h1>📝 Notes App</h1>
+
+    <div class="note-input">
+      <input type="text" id="noteTitle" placeholder="Note Title">
+      <textarea id="noteText" placeholder="Write your note here..."></textarea>
+      <button id="addNote">Add Note</button>
+    </div>
+
+    <h2>Your Notes</h2>
+    <input type="text" id="searchInput" placeholder="Search notes...">
+    <div id="notesList" class="notes-list"></div>
+  </div>
+
+  <script src="script.js"></script>
+
+  <footer><b>By Zohil Rahimzai 2025</b></footer>
+
+</body>
+</html>
